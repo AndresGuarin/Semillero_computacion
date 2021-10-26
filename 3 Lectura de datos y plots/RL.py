@@ -7,7 +7,7 @@ from scipy import stats  # desde la libreria de estadistica
 from sklearn import linear_model #para hacer regresion lineal
 from sklearn.metrics import mean_squared_error, r2_score
 
-path='C:/Users/UIS/Desktop/Python/Semillero_Ficomaco/Graficas/velocity.txt'  #nombre del archivo
+path='velocity.txt'  #nombre del archivo
 
 datos=np.loadtxt(path, dtype='float',delimiter=',',comments='#',unpack='true',skiprows=1)[:,:]
 cols,fil=datos.shape

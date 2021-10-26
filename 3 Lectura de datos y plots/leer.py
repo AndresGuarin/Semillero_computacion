@@ -7,7 +7,7 @@ Created on Fri Oct 11 15:34:47 2019
 import matplotlib.pyplot as plt
 import numpy as np
 
-filename='C:/Users/USUARIO/Desktop/Python/Semillero_Ficomaco/Graficas/velocity.txt'  #nombre del archivo
+filename='velocity.txt'  #nombre del archivo
 
 x,y1=np.loadtxt(filename, delimiter=',',usecols=(0,1),unpack=True,skiprows=1)
 print('y1=',y1)

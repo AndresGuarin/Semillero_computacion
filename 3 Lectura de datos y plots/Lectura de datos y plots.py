@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt #libreria para graficos
 
 #%matplotlib auto #muestra las gráficas en una miniventana nueva
 
-dirvel='C:/Users/USUARIO/Desktop/Python/Semillero_Ficomaco/Graficas/velocity.txt'#direccipon del archivo
+dirvel='velocity.txt'#direccipon del archivo
 
 datos=np.loadtxt(dirvel,dtype='float',delimiter=',',unpack='True',skiprows=1,
                  comments='#')[0:2,0:37] #Entre corchetes va el tamaño de los datos que queremos sacar [cols, filas]
